@@ -1,0 +1,195 @@
+12-11-32 Pegasus record
+
+General Details:
+
+Marine Fouling Condition:
+
+Port:
+
+-Type: Acorn Barnacle, Algae, Slime
+-% Area:
+
+1.Bow: 40%, Paint detachment at bow due
+to anchor heaving activities
+2.Mid: 40%
+3.Stern: 40%
+-Severity: Moderate
+-Length: 20-30mm
+
+Starboard:
+
+-Type: Acorn Barnacle, Algae, Slime
+-% Area:
+
+1.Bow: 40%
+2.Mid: 40%
+3.Stern: 40%
+-Severity: Moderate
+-Length: 20-30mm
+
+Flat Bottom:
+
+-Type: Acorn Barnacle, Slime
+-% Area:
+
+1.Bow: 70%
+2.Mid: 70%
+3.Stern: 70%
+-Severity: Moderate
+-Length: 20-30mm
+
+Bilge Keel:
+
+-Type: Acorn Barnacle,Algae, Slime
+-% Area:60%
+-Severity: Moderate
+-Length: 20-30mm
+
+Gratings:
+
+-Type: Acorn Barnacle, Slime
+-% Area:90%
+-Severity: Heavy
+-Length: 20-30mm
+
+Rudder:
+
+-Type: Acorn Barnacle,Algae, Slime
+-% Area: 70%
+-Severity: Moderate
+-Length: 20-30mm
+
+Propeller:
+
+-Type: Algae, Slime,Calcareous
+-% Area: 70%
+-Severity: Moderate
+-Length:
+Bow Thruster (s):
+-Type: N/A
+-% Area: N/A
+-Severity: N/A
+-Length: N/A
+
+General Hull Assessment
+-Paint condition:
+1. Coating: NON SPC
+2. Condition: Fair
+4. Remarks: Paint detachment at bow due to anchor heaving activities.
+
+-Hull Plating(?) below waterline:
+1.Port Vertical Side: No Damage
+2.Starboard Vertical Side: No Damage
+3.Port Flat Bottom:No Damage
+4.Keel Plate:No Damage
+5.Starboard Flat Bottom:No Damage
+
+-Condition of Weld Seams On Hull: Satisfactory
+-Any visible Cracks: No
+-Remarks: No Anomalies Sighted during time of inspection
+
+-BILGE KEEL
+1.No. of Sections Each Side: 4
+2.Port Bilge Keel :
+-Any Anodes on Bilge Keel: Yes
+-Any Damage:No
+-Any Cracks on Weld Joint: No
+-Anodes %Remaining: 40%
+3. Stdb Bilge Keel :
+-Any Damage: No
+-Any Cracks on Weld Joint: No
+-Anodes %Remaining: 40%
+
+7.Remarks:
+No Anomalies Sighted during time of inspection
+
+-SEA CHEST GRATINGS
+1. Number of sea chest: Port: 2 , Starboard 2+1
+2. Type: Swing Door Hinge, Bolted
+3. Gratings: Intact
+4. Condition: Good
+5. Seizing wires: Intact
+6. Remarks:
+No Anomalies Sighted during time of inspection.
+
+-STERN FRAME ARCH AREA
+1. General Casting Condition: Good
+2. Weld Seam to Rudder: Good
+3. Weld Seam To Hull: Good
+4. Weld Seam to Skeg: N.A. (?)
+5.Remarks:
+No Anomalies Sighted during time of inspection.
+
+-RUDDER
+1.Rudder Horn Any Visible Damage: No
+2.Rudder Stock Any Visible Damage: No
+3.Plate Condition: Satisfactory
+4.Any Visible Cracks: No
+5.Rudder Plugs Nos: 1, Intact
+6.Rudder Pintle Clearance Taken: N.A.
+
+-Thrusters:
+1. Bow Thrusters: N.A.
+
+-Rope Guard Cover:
+1. Condition Good
+2. Type: Welded, Access Hole Top Bottom
+3. Remarks: No Anomalies Sighted during time of inspection
+
+-Propeller:
+1.Diameter: 6.0M
+2. No. of Blades: 4
+3. Type: Single
+4. Blade Condition: Good
+5. Bolting Assembly Intact: N.A.
+
+-Description:
+1.Pittings: No
+
+2.Cavitation / Erosion: No
+3.Tears: No
+4.Cracks: No
+5.Previous Repairs: No
+6.Any Oil Leak from Blade Seal: N.A.
+
+-Bose Cone:
+1.Condition: Good
+2.Cement Covers: Intact
+3.Bolting Assembly: Covered
+
+-Propeller Shaft:
+1.Any Oil Leaking From Shaft: No
+2.Any Damage To Tail shaft Assembly: No
+3.Any Entanglement On Shaft: No
+4.Tail Shaft Clearance Taken: No
+5.Tope Reading: N/A
+6.Bottom Reading: N/A
+
+-Propeller Condition Remarks:
+Blade 1(A): No Anomalies Sighted during time of inspection.
+Blade 2(B): No Anomalies Sighted during time of inspection.
+Blade 3(C): No Anomalies Sighted during time of inspection.
+Blade 4(D): No Anomalies Sighted during time of inspection.
+
+-Catholic Protection System:
+1.Sacrificial Anodes: Located FWD, Mid, Aft, Rudder
+2. Remarks: No Anomalies Sighted during time of inspection.
+
+-Post Cleaning Remarks:
+1.Hull Cleaning Performed: Port Side,STBD Side,Flat Btm, Rudder, Sea Chest Gratings,
+Bilge Keel
+2. Successful Completion of Cleaning: Yes
+3. Post Cleaning inception: yes
+4. Remarks: NIL
+
+-OPERATIONAL DETAILS
+1. Workboat Time Alongside: 0430hrs
+2. Daytime
+3. Comments: Job Scope Completed:
+1. IN-WATER GENERAL INSPECTION
+2. FULL HULL CLEANING (INCLUDES BILGE KEEL CLEANING, SEA-CHEST GRIDS
+
+CLEANING, RUDDER CLEANING)
+3. POLISHING OF PROPELLER
+
+

@@ -1,0 +1,32 @@
+In what follows, the meaning of the symbols used is explained. The symbols
+in brackets [] correspond to the units of measurement (e.g. [m] for meters
+etc.). In perentheses you 'll find the type of the variable. In some
+fields, an explanation is provided, following the # symbol
+
+ShipName:       Name of the ship (str)	
+ShipYear:	    Year the ship was built (4 digit int)
+ShipIMO: 	    The IMO number of the ship (int)
+ShipType:	    Type of Ship: reference to its id (int)
+ShipFlag:       The country flag it is registered to (str)	
+ShipPorts:	    Port of registry (str)
+MMSI:   	    Identifier for radio communication (int - 9 digits)
+ICS:    	    Digital communication  (int)
+LOA:    	    Length over all [m] (int)
+T:      	    Draft [m] (int)
+B:	            Beam [m] (int)
+GT:     	    Gross Tonnage [GT] (int)
+Cb:	            Block Coefficient (float)
+RL:	            Regulation Length [m] (int)
+H:	            Height [m] (int)
+LPP:	        Length between perpendiculars [m] (int)
+DWT:	        Dead Weight [DWT] (int)
+DSP:	        Displacement [metric_tonnes_(mt)] (int) # weight of the water displaced by the hull of the ship
+DSPlight:	    Displacement Light [metric_tonnes_(mt)] (int) # weight of the water displaced by the hull of the ship, when it contains no cargo, fuel etc.
+PropType:	    Propulsion type (str)
+PropNum:	    Propulsion number (int) # Number of engines or propulsion units
+ScrewNum:	    Number of Screws (int)
+TypSpeed:	    Typical Speed (float) [knots_(kn)] 
+TypRegions:	    Typical Operating Regions (str)
+TardRoutes:	    Trading Routes (str)
+ActivePeriod:	Percentage of time the ship is actively moving (float) #?
+LayUp:	        Expected Lay-up periods (int or str) [weeks_or_months]
