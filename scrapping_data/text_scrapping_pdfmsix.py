@@ -112,7 +112,6 @@ def extract_interactive_forms(file_path):
 
 if __name__=="__main__":
 
-    # file = "EmptyPDF.pdf"
     file_path = "pdf_files/Inspection_2.pdf"
     # extract(file_path)
     # extract_and_print(file_path)
