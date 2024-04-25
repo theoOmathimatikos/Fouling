@@ -1,0 +1,21 @@
+{
+    "prompts":[
+        {
+            "id": "table_7_1",
+            "specific": "The vessel is armed with Antifouling Coating. The different substances are provided.",
+            "params_data": {
+                "is_pd_pairs": "False",
+                "params": "substances",
+                "data": [
+                    "SPC",
+                    "CBD",
+                    "Insoluble Matrix"
+                ]
+            }
+        },
+        {
+            "id": "table_7_2",
+            "specific": "The vessel is armed with Antifouling Coating. The different substances are provided."
+        }
+    ]
+}
