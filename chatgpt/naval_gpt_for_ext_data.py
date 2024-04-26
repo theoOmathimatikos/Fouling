@@ -1,4 +1,4 @@
-from chatgpt.naval_gpt import NavalBrain
+from naval_gpt import NavalBrain
 
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.vectorstores import FAISS
@@ -46,7 +46,7 @@ class NavalBrainExtData(NavalBrain):
                 ("system", self.prompt['general']),
                 ("user", self.prompt['specific']),
                 ("system", self.prompt['summary']),
-                ("user", self.prompt['data_struct']),
+                ("system", self.prompt['data_struct']),
                 ("user", self.prompt['data']),
                 ("system", self.prompt['ext_data_expl']),
                 ("user", self.prompt["ext_data"])
@@ -88,7 +88,6 @@ class NavalBrainExtData(NavalBrain):
 
         response = retrieval_chain.invoke({
             "specific":specific, 
-            "data_structure": data_struct, 
             "data": data,
             "ext_data": ext_data
         })

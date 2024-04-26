@@ -1,0 +1,117 @@
+{
+    "prompts":
+    [
+        {
+            "id": "table_6_2",
+            "specific": "The vessel is armed with Antifouling Coating. The different substances are provided.",
+            "params_data": {
+                "param_data_pair": "False",
+                "params": ["substances"],
+                "data": ["SPC", "CBD", "Insoluble Matrix"]
+            }
+        },
+
+        {
+            "id": "table_6_3",
+            "specific": "The vessel is armed with Antifouling Coating. The dry film thickness of each substance is provided.",
+            "params_data": {
+                "param_data_pair": "True",
+                "params": ["SPC", "CBD"],
+                "data": ["5mm", "10mm"]
+            }
+        },
+
+        {
+            "id": "table_6_5",
+            "specific": "The vessel is armed with Antifouling Coating. The suitable values of the vessel's operating profile for the coating are provided.",
+            "params_data": {
+                "param_data_pair": "True",
+                "params": ["Temperature", "Salinity", "Speed", "Periods of inactivity"],
+                "data": ["26 C", "30 ppt", "15 kn", "2 months"]
+            }
+        },
+
+        {
+            "id": "table_6_6",
+            "specific": "The vessel is armed with Antifouling Systems. The recommended regime for repairs, maintenance and/or renewal is provided, to receive optimal AFC performance.",
+            "params_data": {
+                "param_data_pair": "True",
+                "params": ["Repairs", "Maintenance"],
+                "data": ["AFC in hull, every year", "AFC in propellers, every 2 years"]
+            }
+        },
+
+        {
+            "id": "table_6_7",
+            "specific": "The vessel is armed with Antifouling Coating. The recommended cleaning methods for the vessel's AFC are provided.",
+            "params_data": {
+                "param_data_pair": "False",
+                "params": ["recommended_cleaning_methods"],
+                "data": ["Dive cleaning", "Dry dock cleaning"]
+            }
+        },
+
+        {
+            "id": "table_6_8",
+            "specific": "The vessel is armed with Antifouling Coating. The cleaning methods that are not appropriate for the vessel's AFC are provided.",
+            "params_data": {
+                "param_data_pair": "False",
+                "params": ["not_appropriate_cleaning_methods"],
+                "data": ["Dive cleaning"]
+            }
+        },
+
+        {
+            "id": "table_6_10",
+            "specific": "The vessel is armed with Antifouling Coating. General specifications about the AFC are provided.",
+            "params_data": {
+                "param_data_pair": "True",
+                "params": ["water_temperature"],
+                "data": ["should be above 10 C"]
+            }
+        },
+
+        {
+            "id": "table_7_2",
+            "specific": "The vessel is armed with Marine Growth Preventive System (MGPS). Yet, some types of harmful substances from MGPS are discharged. Briefly list them.",
+            "params_data": {
+                "param_data_pair": "False",
+                "params": ["harmful_substances"],
+                "data": ["phosphorus"]
+            }
+        },
+
+        {
+            "id": "table_7_3",
+            "specific": "",
+            "params_data": {
+                "param_data_pair": "True",
+                "params": [],
+                "data": []
+            }
+        },
+
+        {
+            "id": "table_7_4",
+            "specific": "The vessel is armed with Marine Growth Preventive System (MGPS). The operating conditions and frequency of use are provided.",
+            "params_data": {
+                "param_data_pair": "True",
+                "params": ["temperature", "salinity", "frequency"],
+                "data": ["30 C", "30 ppt", "2 months"]
+            }
+        },
+
+        {
+            "id": "table_7_7",
+            "specific": "The vessel is armed with Marine Growth Preventive System (MGPS). The required maintenance is provided.",
+            "params_data": {
+                "param_data_pair": "True",
+                "params": ["cleaning"],
+                "data": ["every 6 months"]
+            }
+        }
+
+
+
+    ]
+}

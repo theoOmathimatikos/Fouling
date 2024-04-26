@@ -42,7 +42,7 @@ class NavalBrain():
                 ("system", self.prompt['general']),
                 ("user", self.prompt['specific']),
                 ("system", self.prompt['summary']),
-                ("user", self.prompt['data_struct']),
+                ("system", self.prompt['data_struct']),
                 ("user", self.prompt['data'])
             ])
             
@@ -83,14 +83,20 @@ class NavalBrain():
                   <summary>
                   You make a brief summary of the data, provided by the user below. The style of the text should 
                   be in accordance with your role. The responce, should be brief, expressed in a few sentences and without 
-                  many explanations. There is no need to explain any acronyms. Also, if no data is provided from the user,
-                  answer 'No data provided to make any suggestion.'. 
+                  redundant explanations. Start the sentences directly, without saying 'as per the provided data'
+                  or anything similar. There is no need to explain any acronyms. 
+                  
+                  Also, if no data is provided from the user, answer 'No data provided to make any suggestion.'. 
                   </summary> \n\n
                   """,
 
                   'data_struct': """
                   <data_structure>
-                  {data_structure}
+                  The data that are provided by the user are given as a dictionary of key-value pairs, with keys 
+                  and values representing the features and their values respectively. Sometimes the key will be 
+                  associated with a unique value, while in other cases a key might correspond to a list of values. 
+                  The names of the features characterise the features themselves.\n
+                  E.g. the feature 'speed' corresponds to the speed of the vessel.\n
                   </data_structure> \n\n
                   """,
 
@@ -99,50 +105,25 @@ class NavalBrain():
                   {data}
                   </data>
                   """}
-    
-    def data_structure(self, data):
-
-        if type(data) == dict:
-            data_struct = """ 
-                The data that are provided by the user are given as a list of features. The names of the features 
-                characterise the features themselves. E.g. the feature 'speed' corresponds to the speed of the vessel. \n
-                """
-        else:
-            data_struct = """ 
-                The data that are provided by the user are given as a dictionary of key-value pairs, with keys 
-                and values representing the features and their values respectively. The names of the features 
-                characterise the features themselves. E.g. the feature 'speed' corresponds to the speed of the vessel.\n
-                """
-        return data_struct
 
 
-    def invoke(self, specific, params, data):
-
-        data = zip_data(params, data)
-
-        data_struct = self.data_structure(data)
+    def invoke(self, specific, data):
 
         answer = self.model.invoke({
             "specific": specific, 
-            "data_structure": data_struct, 
             "data": data
         })
 
         return answer
-    
-
-def zip_data(params, data):
-
-    data = str(params) if data == None else str({k:v for (k, v) in zip(params, data)})
-    return data
-
 
 
 if __name__ == "__main__":
 
-    specific = "The vessel operates outside its usual operating profile."
-    params = ["speed", "fuel_burn", "speed_limit", "fuel_burn_limit"]
-    data = ["15", "14000", "10", "10000"]
+    # specific = "The vessel operates outside its usual operating profile."
+    # data = str({"speed": "15 kn", "speed_limit": "10 kn", "fuel_burn": "14000 gal", "fuel_burn_limit": "10000 gal"})
 
-    ans = NavalBrain().invoke(specific, params, data)
+    specific = "The vessel is armed with Antifouling Coating. The different substances are provided."
+    data = str({"substances": ["SPC", "CBD", "Insoluble Matrix"]})
+
+    ans = NavalBrain().invoke(specific, data)
     print(ans)
