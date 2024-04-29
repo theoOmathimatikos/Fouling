@@ -83,11 +83,11 @@
 
         {
             "id": "table_7_3",
-            "specific": "",
+            "specific": "The vessel is armed with Marine Growth Preventive System. Operating conditions and frequency of use are provided",
             "params_data": {
                 "param_data_pair": "True",
-                "params": [],
-                "data": []
+                "params": ["room_temperature", "electricity_needed", "frequency_of_use"],
+                "data": ["30 C", "1000W", "once a week"]
             }
         },
 

@@ -1,0 +1,57 @@
+{
+    "id": "1",
+    "date_start": "2023-01-01",
+    "date_end": "2023-10-11",
+    "location": "str",
+    "ship": "Ocean Traveller",
+    "administrator": "Tester",
+    "type": "Dry Docking",
+    "installations": [
+        {
+            "id": 1,
+            "description": "Coating Paint, SPC",
+            "type": "coating",
+            "image": "url",
+            "product_name": "Oceanic Protect+",
+            "brand": "Hempel",
+            "manufacturer": "Hempel",
+            "installer": "Makis",
+            "chemical_substances": "Insoluble Matrix",
+            "suitable_operating_profile": {
+                "speed": "10 kn",
+                "temperature": "30 C"
+            },
+            "area": "underwater hull",
+            "dry_film_thickness": {
+                "area_1": "5mm", 
+                "area_2": "7mm"
+            },
+            "service_life": "60 months",
+            "recommended_actions": {
+                "repairs": "6 months",
+                "maintenance": "12 months",
+                "renewal": "36 months"  # not sure if it's the same as service_life
+            },
+            "recommended_cleaning": "Dry-Dock cleaning ecery 4 months",
+            "not_appropriate_cleaning": "Dry docking",
+            "specs": "Hempel's Antifouling Oceanic Protect+ 7395W is a high-solid, self-polishing copolymer (SPC) antifouling paint, ideal for underwater hull applications for both newbuilds and maintenance. The paint, based on zinc carboxylate and acrylic binders, provides durable antifouling protection facilitated by a stable self-polishing mechanism and an effective biocide package. Enhanced mechanical strength is achieved through advanced microfiber technology which ensures controlled polishing throughout its service life.\n\nThe paint adheres to environmental standards as it does not contain organotin compounds and complies with the International Convention on the Control of Harmful Antifouling Systems on Ships, as adopted by IMO in October 2001. This makes it a safe choice in terms of environmental compliance.\n\nThe recommended thickness for the dry film is 100 microns (approximately 3.9 mils), which is crucial for achieving the designed performance and durability. The paint is offered in a standard brownish-red color with a flat gloss level, and is applicable mainly through airless spray, ensuring a uniform coating. It supports a service period of up to 60 months before the need for drydocking, underlining its long-lasting protection capabilities. Proper handling and storage are emphasized to maintain its efficacy and shelf life of 36 months under optimal conditions.",
+            "comments": "smells good",
+            "certificate/receipt": "IMO 2001",
+            "cost": "50000"
+        },
+        {
+            "id": 2,
+            "description": "MGPS",
+            "harmful_substances_discharged": ["zinc", "coper"],
+            "operating_conditions": {
+                "room_temperature": "30 C", 
+                "electricity_needed": "1000W" 
+            },
+            "frequency_of_use": "once a week",
+            "required_maintenance": {
+                "cleaning": "once a year",
+                "repair": "once every 3 years"
+            }
+        }
+    ]
+}
